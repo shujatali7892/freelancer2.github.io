@@ -1,0 +1,94 @@
+.main{
+  background-color: black;
+}
+.Share-div {
+background-image: url(../img/FreeCredit/hero-desktop.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+.Share-div section {
+margin-top: 0vh;
+}
+.Share-div h1 {
+color: white;
+font-weight: 800;
+}
+.Share-div p {
+color: white;
+font-weight: 800;
+}
+.invite-div{
+  background-image: url(../img/FreeCredit/background-desktop-v2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.invite-div h1 {
+  color: white;
+  font-weight: 800;
+}
+.invite-div p {
+  color: white;
+  font-weight: 800;
+}
+.theirt-div{
+  /* background-image: url(../img/FreeCredit/hero-desktop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: whitesmoke;
+ 
+}
+ 
+.fourth-div {
+  background-image: url(../img/FreeCredit/gift-box.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: whitesmoke; */
+  height: 100vh;
+  background-size: auto;
+  position: relative;
+}
+.fourth-div h1 {
+  color: white;
+  font-weight: 800;
+}
+.fourth-div p {
+  color: white;
+  font-weight: 800;
+}
+.fourth-div .overlay {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: linear-gradient(to top, rgb(24 24 24), rgb(4 4 4 / 96%), rgb(4 4 4 / 58%),rgb(4 4 4 / 100%));
+  z-index: 2;
+}
+.fourth-div .section-dv{
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+}
+.fourth-div  #copyButton {
+  cursor: pointer;
+  background: #0e1724 !important;
+  color: white !important;
+}
+.fourth-div #copyButton .form-control {
+  color: white !important;
+  background-color: #0e1724 !important;
+  border: none !important;
+}
+  .potentialcredit{
+    border-left: 2px solid white;
+    border-right: 2px solid white; 
+  } 
+  .potentialcredit, .friendsinvited, .totalcredit{
+    text-align: center;
+  }
