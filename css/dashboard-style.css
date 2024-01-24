@@ -1991,5 +1991,11 @@ details[open] .details-info {
   box-shadow: 0px 0px 44px 1px #dbdbdb96;
 }
 .right-btn{
-  height: 30px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 2rem;
 }
