@@ -1910,3 +1910,83 @@ details[open] .details-info {
 }
 
 /* project-div ends */
+/* Contests-div start */
+
+.Contests-div {}
+
+/* Style the tab */
+.Contests-div .tab {
+  background-color: #f1f1f100;
+  box-shadow: 0px 0px 15px 1px #8080801f;
+  min-height: 60vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.Contests-div .tab:hover {
+  background-color: #f1f1f100;
+  box-shadow: 0px 0px 1px 1px #8080801f;
+}
+
+/* Style the buttons inside the tab */
+.Contests-div .tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 15px 16px;
+  width: 100%;
+  margin: 5px 0;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.Contests-div .tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.Contests-div .tab button.active {
+  background-color: #12151b38;
+  border-left: 3px solid var(--btn-color);
+  color: var(--btn-color);
+  font-weight: 700;
+}
+
+/* Style the tab content */
+.Contests-div .tabcontent {
+  float: left;
+  padding: 12px 12px;
+  /* border: 1px solid #ccc; */
+  width: 100%;
+  box-shadow: 0px 0px 15px 1px #8080801f;
+  border-left: none;
+  min-height: 60vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.Contests-div .tabcontent:hover {
+  background-color: #f1f1f100;
+  box-shadow: 0px 0px 1px 1px #8080801f;
+} 
+.btn-highlight {
+  background-color: var(--btn-color);
+  color: white;
+  border-radius: 24px;
+  padding: 2px 15px;
+  transition: background-color 0.3s, color 0.3s, border 0.3s, font-weight 0.3s, transform 0.3s;
+}
+
+.btn-highlight:hover {
+  color: var(--btn-color);
+  background-color: transparent;
+  border: 1px solid var(--btn-color);
+  font-weight: 600;
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 44px 1px #dbdbdb96;
+}
