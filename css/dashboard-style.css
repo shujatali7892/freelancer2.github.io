@@ -4,6 +4,7 @@
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "Poppins", sans-serif;
+  --shadow:  0 0 20px 1px rgb(231 226 226);
 }
 
 /* Colors */
@@ -14,6 +15,7 @@
   --color-primary: #008374;
   --color-secondary: #f85a40;
   --btn-color: #e60278;
+  
 }
 
 /* Smooth scroll behavior */
@@ -2002,7 +2004,7 @@ details[open] .details-info {
   transform: translateY(-5px);
   box-shadow: 0px 0px 44px 1px #dbdbdb96;
 }
-.right-btn{
+/* .right-btn{
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -2010,7 +2012,49 @@ details[open] .details-info {
   text-align: center;
   line-height: 1.5;
   font-size: 2rem;
+} */
+
+
+
+
+
+/* ....................................project-skills style */
+.project-skills {}
+
+.project-skills .file-div {
+  box-shadow: var(--shadow);
+  padding: 10px;
+  border-radius: 10px;
 }
+.right-btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+  box-shadow: var(--shadow) inset, var(--shadow), var(--shadow) inset;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 2rem;
+  position: relative;
+  animation: moveLR 2s infinite alternate;
+  /* alternate makes it go back and forth */
+}
+
+@keyframes moveLR {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: calc(100% - 96%);
+    /* Adjust this value based on your container width and button size */
+  }
+}
+
+
+
+   /* ....................................project-skills style  end*/
+
 .mega-content a{
   color: var(--main-color) !important;
 }
@@ -2130,8 +2174,11 @@ details[open] .details-info {
 .footer-mobile .credits a {
   color: #fff;
 }
-
+ 
 /* -------------------------------------------.footer-mobile style ends here */
+
+
+
 @media screen and (min-width: 992px){
 .profile-list {
   width: 30% !important;
