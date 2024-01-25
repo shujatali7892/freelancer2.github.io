@@ -2132,11 +2132,13 @@ details[open] .details-info {
 }
 
 /* -------------------------------------------.footer-mobile style ends here */
-
-
-
-@media screen and (max-width: 768px){
+@media screen and (min-width: 992px){
 .profile-list {
+  width: 30% !important;
+}
+}
+@media screen and (max-width: 768px) {
+  .profile-list {
     list-style: none;
     padding: 0;
     position: absolute;
@@ -2153,15 +2155,16 @@ details[open] .details-info {
     pointer-events: none;
     transition: max-height 0.5s ease, opacity 0.5s ease;
   }
-    .footer-mobile {
-       
-      background-color: var(--main-color);
-      /* padding: 50px 0; */
-      color: white;
-      position: fixed;
-      top: 80%;
-      z-index: 3000;
-      bottom: 0;
-      width: 100%;
-    }
+
+  .footer-mobile {
+
+    background-color: var(--main-color);
+    /* padding: 50px 0; */
+    color: white;
+    position: fixed;
+    top: 80%;
+    z-index: 3000;
+    bottom: 0;
+    width: 100%;
+  }
 }

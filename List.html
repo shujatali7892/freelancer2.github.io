@@ -40,10 +40,44 @@
     <!-- ======= Header ======= -->
     <nav class="navbar navbar-expand-lg shadow">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <!-- ----------/////////////////// profile menu for mobile start -->
+            <div class="my-auto d-lg-none d-block">
+                <p class="custom-button profile-logo" id="showCountriesBtns">
+                    <span> <img src="./img/FreeCredit/profile_logo_42493242.jpg" class="img-fluid mt-auto">
+                    </span>
+                    <span> <b>Name Hereu </b> </span>
+                </p>
+                <ul class="profile-list" id="countriesLists">
+                    <li><b>Account</b></li>
+                    <li><a href="./Browse/ImproveProfile.html">View profile</a></li>
+                    <li> <a href="./Browse/membership.html">Membership </a> </li>
+                    <li> <a href="./Browse/userStats.html"> Account analytics</a> </li>
+                    <li> <a href="./Browse/bidInsights.html">Bid Insights </a> </li>
+                    <li> <a href="./Browse/settingsprofile.html">Settings </a> </li>
+                    <li> <b>Finances</b> </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-4">Balance</div>
+                            <div class="col-7 ms-auto text-end"> <small>$0.00 USD</small> </div>
+                        </div>
+                    </li>
+                    <li> <a href="./Browse/deposit.html">Add funds </a> </li>
+                    <li> <a href="./Browse/withdraw.html">Withdraw funds </a> </li>
+                    <li> <a href="./Browse/transactions.html"> Financial dashboard </a> </li>
+                    <li> <a href=""> Payment sharing </a> </li>
+                    <li> <a href="./Browse/support.html"> Support </a> </li>
+                    <li> <a href="./Browse/give.html"> Invite friends</a> </li>
+                    <li> <a href="login.html"> Logout</a> </li>
+                    <li> <a href="login.html"> lorem30 </a> </li>
+                </ul>
+            </div>
+            <!-- ----------/////////////////// profile menu for mobile end -->
+            <a class="navbar-brand" href="./Dashboard.html">
                 <img src="./img/freelancer-logo-light.png" class="img-fluid logoDark" alt="" style="display: none;">
                 <img src="./img/freelancer-logo.png" class="img-fluid  logoLight" alt="">
             </a>
+    
+    
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbar-content">
                 <div class="hamburger-toggle">
@@ -56,65 +90,152 @@
             </button>
             <div class="collapse navbar-collapse" id="navbar-content">
                 <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-
+    
                     <li class="nav-item dropdown dropdown-mega position-static">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="collapse"
-                            data-bs-target="#Browse"><i class="fa fa-compass" aria-hidden="true"></i> &nbsp; Browse</a>
-
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="collapse" data-bs-target="#Browse"><i
+                                class="fa fa-compass" aria-hidden="true"></i> &nbsp; Browse</a>
+    
                         <div id="Browse" class="dropdown-menu collapse shadow">
                             <div class="mega-content px-4">
                                 <div class="container-fluid">
+    
                                     <div class="row">
-
+    
                                         <div class="col-12">
                                             <h4>Search</h4>
                                         </div>
-                                        <div class="col-12 col-sm-4 col-md-3 py-4">
-                                            <h5> <i class="fa fa-folder " aria-hidden="true"></i> &nbsp; Projects</h5>
-                                            <p class="">Explore exciting new project opportunities now!</p>
-
+                                        <div class="col-lg-3 col-sm-6 col-12">
+                                            <a href="./Browse/Projects.html">
+                                                <h5> <i class="fa fa-folder " aria-hidden="true"></i> &nbsp; Projects
+                                                </h5>
+                                                <p class="">Explore exciting new project opportunities now!</p>
+                                            </a>
                                         </div>
-                                        <div class="col-12 col-sm-4 col-md-3 py-4">
-                                            <h5>
-                                                <i class="fa fa-bars" aria-hidden="true"></i>
-                                                &nbsp; Contests
-                                            </h5>
-                                            <p class="">Unleash your talent and win Freelancer contests!</p>
-
+                                        <div class="col-lg-3 col-sm-6 col-12">
+                                            <a href="./Browse/Contests.html">
+                                                <h5>
+                                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                                    &nbsp; Contests
+                                                </h5>
+                                                <p class="">Unleash your talent and win Freelancer contests!</p>
+                                            </a>
                                         </div>
-                                        <div class="col-12 col-sm-4 col-md-3 py-4">
-                                            <h5><i class="fa fa-user" aria-hidden="true"></i>
-                                                &nbsp; Freelancers</h5>
-                                            <p>Lorem ipsum dolo sit achmet muhamed borlan de irtka.
+                                        <div class="col-lg-3 col-sm-6 col-12">
+                                            <a href="./Browse/users.html">
+                                                <h5><i class="fa fa-user" aria-hidden="true"></i>
+                                                    &nbsp; Freelancers</h5>
+                                                <p>Lorem ipsum dolo sit achmet muhamed borlan de irtka. </p>
+                                            </a>
                                         </div>
-                                        <div class="col-12 col-sm-12 col-md-3 py-4">
-                                            <h5><i class="fa fa-briefcase" aria-hidden="true"></i> &nbsp; Manage
-                                            </h5>
-                                            <p>Explore exciting new project opportunities now!</p>
+                                        <div class="col-lg-3 col-sm-6 col-12">
+                                            <a href="./Browse/Bookmarks.html">
+                                                <h5><i class="fa fa-bookmark" aria-hidden="true"></i> &nbsp; Bookmark
+                                                </h5>
+                                                <p>Explore exciting new project opportunities now!</p>
+                                            </a>
                                         </div>
-                                        <div class="col-12 col-sm-4 col-md-3 py-4">
-                                            <h5> <i class="fa fa-folder " aria-hidden="true"></i> &nbsp; Projects</h5>
-                                            <p class="">Explore exciting new project opportunities now!</p>
-
+                                    </div>
+                                    <hr>
+                                    <!-- ----------------------------Freelancing Tools div starr -->
+                                    <div class="row">
+                                        <div class="col-12 mb-2">
+                                            <h4>Freelancing Tools</h4>
                                         </div>
-                                        <div class="col-12 col-sm-4 col-md-3 py-4">
-                                            <h5>
-                                                <i class="fa fa-bars" aria-hidden="true"></i>
-                                                &nbsp; Contests
-                                            </h5>
-                                            <p class="">Unleash your talent and win Freelancer contests!</p>
-
+                                        <div class="col-lg-3 col-sm-6 col-12">
+                                            <a href="./Browse/verifiedfreelancer.html">
+                                                <h5><i class="fa-solid fa-shield-halved"></i> &nbsp; Verified by Freelancer
+                                                </h5>
+                                                <p>Increase your chances of winning projects! </p>
+                                            </a>
                                         </div>
-                                        <div class="col-12 col-sm-4 col-md-3 py-4">
-                                            <h5><i class="fa fa-user" aria-hidden="true"></i>
-                                                &nbsp; Freelancers</h5>
-                                            <p>Lorem ipsum dolo sit achmet muhamed borlan de irtka.
+                                        <div class="col-lg-3 col-sm-6 col-12">
+                                            <a href="./Browse/preferredfreelancer.html">
+                                                <h5><i class="fa-solid fa-star"></i> &nbsp; Preferred Freelancer </h5>
+                                                <p>Access exclusive projects and stand out </p>
+                                            </a>
                                         </div>
-                                        <div class="col-12 col-sm-12 col-md-3 py-4">
-                                            <h5><i class="fa fa-briefcase" aria-hidden="true"></i> &nbsp; Manage
-                                            </h5>
-                                            <p>Explore exciting new project opportunities now!</p>
+                                        <div class="col-lg-3 col-sm-6 col-12">
+                                            <a href="./Browse/memberships.html">
+                                                <h5><i class="fa-solid fa-users-viewfinder"></i> &nbsp; Memberships </h5>
+                                                <p>Get earning opportunities and savings </p>
+                                            </a>
                                         </div>
+                                        <div class="col-lg-3 col-sm-6 col-12">
+                                            <a href="./Browse/exams.html">
+                                                <h5><i class="fa-solid fa-graduation-cap"></i> &nbsp; Exams</h5>
+                                                <p>Prove your skills to win more work </p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <!-- ----------------------------Freelancing Tools div end -->
+    
+                                    <!-- ---------------------------
+                                                --------------------------------------Client   Tools div starr -->
+                                    <div class="row">
+                                        <div class="col-12 mb-2">
+                                            <h4>Client Tools </h4>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-6 col-12">
+                                            <a href="./Browse/recruiter.html">
+                                                <h5><i class="fa-solid fa-shield">R</i> &nbsp; Recruiter </h5>
+                                                <p>Get assistance finding the perfect freelancer </p>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-6 col-12">
+                                            <a href="./Browse/technicalCo-pilot.html">
+                                                <h5><i class="fa-regular fa-font-awesome"></i> &nbsp; Technical Co-pilot
+                                                </h5>
+                                                <p> Our staff will ensure your project is a success </p>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-6 col-12">
+                                            <a href="./Browse/enterprise.html">
+                                                <h5><i class="fa-solid fa-globe"></i> &nbsp; Enterprise </h5>
+                                                <p>Turn your organization’s ideas into reality </p>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-6 col-12">
+                                            <a href="./Browse/localJobs.html">
+                                                <h5><i class="fa-solid fa-location-dot"></i> &nbsp; Local Jobs </h5>
+                                                <p> Get help in any location, anywhere in the world</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <!-- ----------------------------Client Tools   div end -->
+    
+                                    <!-- ---------------------------
+                                                            --------------------------------------Explore Freelancer div starr -->
+                                    <div class="row">
+                                        <div class="col-12 mb-2">
+                                            <h4> Explore Freelancer</h4>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-6 col-12">
+                                            <a href="./Browse/ .html">
+                                                <h5><i class="fa-solid fa-diamond"></i> &nbsp;Showcase </h5>
+                                                <p>Get inspiration from the world's best </p>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-6 col-12">
+                                            <a href="./Browse/Community.html">
+                                                <h5><i class="fa-solid fa-group-arrows-rotate"></i> &nbsp;Community </h5>
+                                                <p>Browse resources for your business and career </p>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-6 col-12">
+                                            <a href="./Browse/Discover.html">
+                                                <h5><i class="fa-solid fa-users-rays"></i> &nbsp; Discover</h5>
+                                                <p> Discover featured work from our best freelancers</p>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-6 col-12">
+                                            <a href="./Browse/customerSupport.html">
+                                                <h5> <i class="fa-solid fa-headset"></i> &nbsp; Customer Support</h5>
+                                                <p>Browse the Help Center or get in touch with us </p>
+                                            </a>
+                                        </div>
+                                        <!-- ----------------------------Explore Freelancer div end -->
                                     </div>
                                 </div>
                             </div>
@@ -123,24 +244,54 @@
                     <li class="nav-item dropdown dropdown-mega position-static">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="collapse" data-bs-target="#Manage">
                             <i class="fa fa-briefcase" aria-hidden="true"></i> &nbsp; Manage</a>
-
+    
                         <div id="Manage" class="dropdown-menu collapse shadow">
                             <div class="mega-content px-4">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-lg-8">
+                                        <div class="col-8">
                                             <b> Recent Projects</b>
-
+    
                                         </div>
-                                        <div class="col-lg-4 text-end">
-                                            <a href="#"> View All</a>
+                                        <div class="col-4 text-end">
+                                            <a href="./MyProjects.html"> View All</a>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-12">
                                             <p>You do not have any active projects. <br>
-                                                Create one to get started!</p>
+                                                <a href="./MyProjects.html">Create one </a> to get started!
+                                            </p>
                                         </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <b> Lists</b>
+    
+                                        </div>
+                                        <div class="col-4 text-end">
+                                            <a href="./List.html"> View All</a>
+                                        </div>
+                                        <div class="col-12">
+                                            <p> <a href="./List.html"> <i class="fa-solid fa-heart"></i> &nbsp;
+                                                    Favorites</a></p>
+                                            <p> <a href="./List.html"> <i class="fa-solid fa-user-plus"></i> &nbsp; My Hires
+                                                </a></p>
+                                            <p> <a href="./List.html"> <i class="fa-solid fa-eye"></i> &nbsp; Recently
+                                                    Viewed </a></p>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <b> Tasklists</b>
+    
+                                        </div>
+                                        <div class="col-4 text-end">
+                                            <a href="./Tasklists.html"> View All</a>
+                                        </div>
+    
                                     </div>
                                 </div>
                             </div>
@@ -149,28 +300,32 @@
                     <li class="nav-item dropdown dropdown-mega position-static">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="collapse" data-bs-target="#demo">
                             <i class="fa fa-users" aria-hidden="true"></i> &nbsp; Groups </a>
-
+    
                         <div id="demo" class="dropdown-menu collapse shadow">
                             <div class="mega-content px-4">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-lg-6">
+                                        <div class="col-8">
                                             <b> Groups</b>
                                         </div>
-                                        <div class="col-lg-6">
-                                            <a href="">
+                                        <div class="col-4 text-end">
+                                            <a href="./Browse/my-groups.html">
                                                 View All
                                             </a>
                                         </div>
                                     </div>
+                                    <hr>
                                     <div class="row">
                                         <div class="col-12">
                                             <p>
                                                 Freelancer Onboarding
                                                 Updated
                                                 in 6 minutes
-
+    
                                             </p>
+    
+                                        </div>
+                                        <div class="col-12">
                                             <p>
                                                 General Announcements
                                                 Updated
@@ -182,7 +337,7 @@
                             </div>
                         </div>
                     </li>
-
+    
                     <li class="nav-item d-lg-none d-block"> <a href="Dashboard.html" class="nav-link " href="#"
                             tabindex="-1">Dashboard</a> </li>
                     <li class="nav-item d-lg-none d-block"> <a href="List.html" class="nav-link" href="#"
@@ -201,53 +356,59 @@
                     <li class="nav-item d-lg-none d-block"> <a href="FreeCredit.html" class="nav-link" href="#"
                             tabindex="-1">Free
                             Credit</a> </li>
-
+    
                 </ul>
                 <ul class="navbar-nav ms-auto right-profile">
-                   
+    
                     <li class="nav-item">
                         <a class="nav-link" href="#" tabindex="-1" data-bs-toggle-theme="true" aria-disabled="true">
                             <i class="fa fa-adjust"></i></a>
-                    </li> 
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link " href="#">
                             <button class="btn btn-sm light-btn">Guote </button>
-                            </a>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#">
+                        <a class="nav-link " href="./Browse/post-project.html">
                             <button class="btn btn-sm my-btn">Post a Project</button>
-                            </a>
+                        </a>
                     </li>
-                    <li class="nav-item my-auto">
+                    <li class="nav-item my-auto d-lg-block d-none">
                         <p class="custom-button profile-logo" id="showCountriesBtn">
-                            <span>  <img src="./img/FreeCredit/profile_logo_42493242.jpg" class="img-fluid mt-auto"> </span>
-                         <span> <b>Name Hereu </b>  </span>
+                            <span> <img src="./img/FreeCredit/profile_logo_42493242.jpg" class="img-fluid mt-auto">
+                            </span>
+                            <span> <b>Name Hereu </b> </span>
                         </p>
                         <ul class="profile-list" id="countriesList">
-                          <li class="search-bar">
-                            <input type="text" id="searchInput" placeholder="Search countries...">
-                          </li>
                             <li><b>Account</b></li>
-                            <li><a href="">View profile</a></li>
-                            <li> <a href="">Membership </a>  </li> 
-                            <li> <a href=""> Account analytics</a>  </li> 
-                            <li> <a href="">Bid Insights </a>  </li> 
-                            <li> <a href="">Settings </a>  </li> 
-                            <li> <b>Finances</b>  </li> 
-                            <li> <a href="">Balance </a>  </li> 
-                            <li> <a href="">Add funds </a>  </li> 
-                            <li> <a href="">Withdraw funds </a>  </li> 
-                            <li> <a href=""> Financial dashboard </a>  </li> 
-                            <li> <a href=""> Payment sharing </a>  </li> 
-                            <li> <a href=""> Support </a>  </li> 
-                            <li> <a href=""> Invite friends</a>  </li> 
-                            <li> <a href="login.html">  Logout</a>  </li> 
-                            <li> <a href="login.html"> lorem30 </a>  </li> 
+                            <li><a href="./Browse/ImproveProfile.html">View profile</a></li>
+                            <li> <a href="./Browse/membership.html">Membership </a> </li>
+                            <li> <a href="./Browse/userStats.html"> Account analytics</a> </li>
+                            <li> <a href="./Browse/bidInsights.html">Bid Insights </a> </li>
+                            <li> <a href="./Browse/settingsprofile.html">Settings </a> </li>
+                            <li> <b>Finances</b> </li>
+                            <li>
+                                <div class="row">
+                                    <div class="col-4">Balance</div>
+                                    <div class="col-7 ms-auto text-end"> <small>$0.00 USD</small> </div>
+                                </div>
+                            </li>
+                            <li> <a href="./Browse/deposit.html">Add funds </a> </li>
+                            <li> <a href="./Browse/withdraw.html">Withdraw funds </a> </li>
+                            <li> <a href="./Browse/transactions.html"> Financial dashboard </a> </li>
+                            <li> <a href=""> Payment sharing </a> </li>
+                            <li> <a href="./Browse/support.html"> Support </a> </li>
+                            <li> <a href="./Browse/give.html"> Invite friends</a> </li>
+                            <li> <a href="login.html"> Logout</a> </li>
+                            <li> <a href="login.html"> lorem30 </a> </li>
                         </ul>
                     </li>
                 </ul>
             </div>
+    
+    
+    
         </div>
     </nav>
     <nav class="navbar navbar-expand-lg shadow-2 d-lg-block d-none">

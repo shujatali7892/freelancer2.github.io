@@ -47,3 +47,10 @@
      showCountriesBtn.addEventListener('click', function() {
        countriesList.classList.toggle('visible');
      });
+// script.js
+const showCountriesBtn1 = document.getElementById('showCountriesBtns');
+const countriesList1  = document.getElementById('countriesLists');
+
+showCountriesBtn1.addEventListener('click', function () {
+  countriesList1.classList.toggle('visible');
+});
