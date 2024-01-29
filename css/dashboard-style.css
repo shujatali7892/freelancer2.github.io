@@ -2296,7 +2296,14 @@ span.value.upper::before {
   background-color: transparent;
   border: 1px solid var(--btn-color);
 }
-
+.iconside-box{
+  border: 1px solid #909080;
+  width: 30px; 
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 1.8;
+}
 /* ==============================================Exams Broser project page style start here 
 ===================================================*/
 
