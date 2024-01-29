@@ -4,7 +4,7 @@
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "Poppins", sans-serif;
-  --shadow:  0 0 20px 1px rgb(231 226 226);
+  --shadow: 0 0 20px 1px rgb(231 226 226);
 }
 
 /* Colors */
@@ -15,7 +15,6 @@
   --color-primary: #008374;
   --color-secondary: #f85a40;
   --btn-color: #e60278;
-  
 }
 
 /* Smooth scroll behavior */
@@ -91,17 +90,21 @@ section {
 }
 
 .light-btn {
-  background: linear-gradient(to bottom,
-      transparent 0%,
-      rgba(255, 255, 255, 0.2) 100%);
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
   border-color: #fff;
   color: #f7f8f9;
 }
 
 .light-btn:hover {
-  color: linear-gradient(to bottom,
-      transparent 0%,
-      rgba(255, 255, 255, 0.2) 100%);
+  color: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
   border-color: #fff;
   background-color: #f7f8f9;
 }
@@ -198,7 +201,8 @@ section {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #fff;
-  border-color: var(--color-primary) transparent var(--color-primary) transparent;
+  border-color: var(--color-primary) transparent var(--color-primary)
+    transparent;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -851,7 +855,8 @@ body {
   text-shadow: 0 0 30px white;
 }
 
-.list-div {}
+.list-div {
+}
 
 /* Style the tab */
 .list-div .tab {
@@ -980,7 +985,11 @@ body {
   bottom: 40px; */
 }
 
-.profile-cards .card .card-description .card-description-social .card-description-social-follow {
+.profile-cards
+  .card
+  .card-description
+  .card-description-social
+  .card-description-social-follow {
   display: block;
   margin-bottom: 8px;
   color: #555572;
@@ -1020,19 +1029,43 @@ body {
   height: calc(100% - 15px);
 }
 
-.profile-cards .card .card-description .card-description-social ul li:nth-child(1) a:hover {
+.profile-cards
+  .card
+  .card-description
+  .card-description-social
+  ul
+  li:nth-child(1)
+  a:hover {
   background-color: #1da1f2;
 }
 
-.profile-cards .card .card-description .card-description-social ul li:nth-child(2) a:hover {
+.profile-cards
+  .card
+  .card-description
+  .card-description-social
+  ul
+  li:nth-child(2)
+  a:hover {
   background-color: #3f729b;
 }
 
-.profile-cards .card .card-description .card-description-social ul li:nth-child(3) a:hover {
+.profile-cards
+  .card
+  .card-description
+  .card-description-social
+  ul
+  li:nth-child(3)
+  a:hover {
   background-color: #00405d;
 }
 
-.profile-cards .card .card-description .card-description-social ul li:nth-child(4) a:hover {
+.profile-cards
+  .card
+  .card-description
+  .card-description-social
+  ul
+  li:nth-child(4)
+  a:hover {
   background-color: #0a66c2;
 }
 
@@ -1087,7 +1120,8 @@ body {
 /*-------------------------  tasklist----------------------------------
 ------------------------------------------ s------------------------ */
 
-.tasklist-div {}
+.tasklist-div {
+}
 
 /* Style the tab */
 .tasklist-div .tab {
@@ -1316,7 +1350,11 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: linear-gradient(45deg, rgba(0, 0, 0, .3) 50%, rgba(0, 0, 0, .7) 50%);
+  background-image: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 0, 0, 0.7) 50%
+  );
   background-size: 3px 3px;
   z-index: 2;
 }
@@ -1348,7 +1386,13 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  background: linear-gradient(to top, rgb(255 255 255 / 100%), rgb(255 255 255 / 8%), rgb(4 4 4 / 58%), rgb(4 4 4 / 100%));
+  background: linear-gradient(
+    to top,
+    rgb(255 255 255 / 100%),
+    rgb(255 255 255 / 8%),
+    rgb(4 4 4 / 58%),
+    rgb(4 4 4 / 100%)
+  );
   z-index: 2;
 }
 
@@ -1375,7 +1419,6 @@ body {
 .monneys {
   animation: slide 1000s linear infinite;
 }
-
 
 .collapse-div .accordion-wrapper {
   margin-bottom: 2rem;
@@ -1430,7 +1473,6 @@ details[open] .details-info {
 }*/
 
 /* some basic styling (added to the bottom for convenience) */
-
 
 .collapse-div img {
   display: block;
@@ -1493,7 +1535,6 @@ details[open] .details-info {
   right: 0;
 } */
 
-
 /* .right-profile {
   position: relative;
   width: 100%;
@@ -1503,8 +1544,6 @@ details[open] .details-info {
   height: 20px !important;
   width: 20px !important;
 }
-
-
 
 .custom-button {
   color: var(--main-color);
@@ -1553,9 +1592,9 @@ details[open] .details-info {
 } */
 .profile-list {
   list-style: none;
-  padding: 0; 
+  padding: 0;
   position: absolute;
-  z-index: 300; 
+  z-index: 300;
   right: 1%;
   overflow-y: auto;
   background-color: #fff;
@@ -1651,7 +1690,11 @@ details[open] .details-info {
 }
 
 .light-btn {
-  background: linear-gradient(to bottom, var(--main-color) 10%, var(--main-color) 100%);
+  background: linear-gradient(
+    to bottom,
+    var(--main-color) 10%,
+    var(--main-color) 100%
+  );
   color: var(--btn-color);
   box-shadow: 0px 0px 5px #80808042;
   font-weight: 800;
@@ -1659,9 +1702,7 @@ details[open] .details-info {
 
 .light-btn:hover {
   color: white;
-
 }
-
 
 .users-cards .card {
   color: #2d2d2d;
@@ -1708,7 +1749,11 @@ details[open] .details-info {
   bottom: 40px; */
 }
 
-.users-cards .card .card-description .card-description-social .card-description-social-follow {
+.users-cards
+  .card
+  .card-description
+  .card-description-social
+  .card-description-social-follow {
   display: block;
   margin-bottom: 8px;
   color: #555572;
@@ -1748,19 +1793,43 @@ details[open] .details-info {
   height: calc(100% - 15px);
 }
 
-.users-cards .card .card-description .card-description-social ul li:nth-child(1) a:hover {
+.users-cards
+  .card
+  .card-description
+  .card-description-social
+  ul
+  li:nth-child(1)
+  a:hover {
   background-color: #1da1f2;
 }
 
-.users-cards .card .card-description .card-description-social ul li:nth-child(2) a:hover {
+.users-cards
+  .card
+  .card-description
+  .card-description-social
+  ul
+  li:nth-child(2)
+  a:hover {
   background-color: #3f729b;
 }
 
-.users-cards .card .card-description .card-description-social ul li:nth-child(3) a:hover {
+.users-cards
+  .card
+  .card-description
+  .card-description-social
+  ul
+  li:nth-child(3)
+  a:hover {
   background-color: #00405d;
 }
 
-.users-cards .card .card-description .card-description-social ul li:nth-child(4) a:hover {
+.users-cards
+  .card
+  .card-description
+  .card-description-social
+  ul
+  li:nth-child(4)
+  a:hover {
   background-color: #0a66c2;
 }
 
@@ -1777,7 +1846,6 @@ details[open] .details-info {
 
 .inputform {
   border: var(--bs-border-width) solid var(--bs-border-color);
-
 }
 
 .inputform .form-control:focus {
@@ -1793,12 +1861,11 @@ details[open] .details-info {
   color: white;
 }
 
-
-
 /* ------------------ search box 
 ---------------------------------------*/
 
-.usersearch-div {}
+.usersearch-div {
+}
 
 .usersearch-div .form-control {
   height: 31px;
@@ -1857,10 +1924,10 @@ details[open] .details-info {
   padding-left: 0px !important;
 }
 
-
 /* project-div start */
 
-.project-div {}
+.project-div {
+}
 
 /* Style the tab */
 .project-div .tab {
@@ -1926,7 +1993,8 @@ details[open] .details-info {
 /* project-div ends */
 /* Contests-div start */
 
-.Contests-div {}
+.Contests-div {
+}
 
 /* Style the tab */
 .Contests-div .tab {
@@ -1987,13 +2055,14 @@ details[open] .details-info {
 .Contests-div .tabcontent:hover {
   background-color: #f1f1f100;
   box-shadow: 0px 0px 1px 1px #8080801f;
-} 
+}
 .btn-highlight {
   background-color: var(--btn-color);
   color: white;
   border-radius: 24px;
   padding: 2px 15px;
-  transition: background-color 0.3s, color 0.3s, border 0.3s, font-weight 0.3s, transform 0.3s;
+  transition: background-color 0.3s, color 0.3s, border 0.3s, font-weight 0.3s,
+    transform 0.3s;
 }
 
 .btn-highlight:hover {
@@ -2014,12 +2083,9 @@ details[open] .details-info {
   font-size: 2rem;
 } */
 
-
-
-
-
 /* ....................................project-skills style */
-.project-skills {}
+.project-skills {
+}
 
 .project-skills .file-div {
   box-shadow: var(--shadow);
@@ -2051,11 +2117,87 @@ details[open] .details-info {
   }
 }
 
+.title-light {
+  color: var(--btn-color);
+  font-weight: 800;
+}
+.sproject-kills label {
+  font-weight: 800;
+}
 
+.sproject-kills .form-check label {
+  font-weight: 400 !important;
+}
 
-   /* ....................................project-skills style  end*/
+.min-max-slider {
+  position: relative;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.min-max-slider > label {
+  display: none;
+}
+span.value {
+  height: 1.7em;
+  font-weight: bold;
+  display: inline-block;
+}
+span.value.lower::before {
+  content: "$";
+  display: inline-block;
+}
+span.value.upper::before {
+  content: "- $";
+  display: inline-block;
+  margin-left: 0.4em;
+}
+.min-max-slider > .legend {
+  display: flex;
+  justify-content: space-between;
+}
+.min-max-slider > .legend > * {
+  font-size: small;
+  opacity: 0.25;
+}
+.min-max-slider > input {
+  cursor: pointer;
+  position: absolute;
+}
 
-.mega-content a{
+/* webkit specific styling */
+.min-max-slider > input {
+  -webkit-appearance: none;
+  outline: none !important;
+  background: transparent;
+  background-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 30%,
+    silver 30%,
+    silver 60%,
+    transparent 60%,
+    transparent 100%
+  );
+}
+
+.min-max-slider > input::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 14px; /* Set a specific slider handle width */
+  height: 14px; /* Slider handle height */
+  background: #eee; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+  border: 1px solid gray;
+  border-radius: 100%;
+}
+.min-max-slider > input::-webkit-slider-runnable-track {
+  cursor: pointer;
+}
+
+/* ....................................project-skills style  end*/
+
+.mega-content a {
   color: var(--main-color) !important;
 }
 .mega-content a:hover {
@@ -2066,7 +2208,7 @@ details[open] .details-info {
 .footer-mobile {
   font-size: 14px;
   background-color: var(--main-color);
-  
+
   color: white;
 }
 
@@ -2174,15 +2316,13 @@ details[open] .details-info {
 .footer-mobile .credits a {
   color: #fff;
 }
- 
+
 /* -------------------------------------------.footer-mobile style ends here */
 
-
-
-@media screen and (min-width: 992px){
-.profile-list {
-  width: 30% !important;
-}
+@media screen and (min-width: 992px) {
+  .profile-list {
+    width: 30% !important;
+  }
 }
 @media screen and (max-width: 768px) {
   .profile-list {
@@ -2204,7 +2344,6 @@ details[open] .details-info {
   }
 
   .footer-mobile {
-
     background-color: var(--main-color);
     /* padding: 50px 0; */
     color: white;
