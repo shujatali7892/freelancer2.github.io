@@ -3328,21 +3328,7 @@ padding: 0px;
     padding: 5px !important;
   }
   
-  /* .section-eight { 
-    background-image: url(../img/enterprise-upsell-v5-desktop-test.jpg); 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-  } */
-  /* @keyframes zoomOutAnimation {
-    0% {
-      transform: scale(.9);  
-    }
-    100% {
-      transform: scale(1 );  
-    }
-  } */
+   
   
   .section-eight {
     background-image: url(../img/enterprise-upsell-v5-desktop-test.jpg);
