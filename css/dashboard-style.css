@@ -1947,7 +1947,7 @@ body {
 
 /* ....................................project-skills style */
 
-.project-skills .file-div {
+ .file-div {
   box-shadow: var(--shadow);
   padding: 10px;
   border-radius: 10px;
@@ -2084,6 +2084,65 @@ span.value.upper::before {
 
 /* ....................................project-skills style  end*/
 
+
+
+                                                     /* ....................................browseprojects-div style  start*/
+
+.browseprojects-div label {
+  font-weight: 800;
+}
+
+.browseprojects-div .form-check label {
+  font-weight: 400 !important;
+}
+
+/* ....................................browseprojects-div style  end*/
+ 
+/* ....................................BrowseLocalJobs-div style  start  ===============*/
+
+.BrowseLocalJobs-div label {
+  font-weight: 800;
+}
+
+.BrowseLocalJobs-div .form-check label {
+  font-weight: 400 !important;
+}
+
+/* ....................................BrowseLocalJobs-div style  end*/
+
+                                            /* ......../././././././././././././././.
+                                            .............Browsecategories-div style  start  ===============*/
+  .card-boxes .card{
+    border: none !important;
+    box-shadow: var(--shadow);
+    margin-bottom: 10px;
+    
+  }
+ .card-boxes .card-body{
+  padding: 5px 5px !important;
+  min-height: 14vh;
+  max-height: 14vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+ }
+    .card-boxes p{
+      font-size: smaller !important;
+      padding: 0px !important;
+      margin: 0px !important;
+    }
+.card-boxes .svg-inline--fa {
+  color: var(--btn-color) !important;
+  opacity: .5 ;
+}
+.card-boxes .card-body::-webkit-scrollbar-thumb {
+  background-color: var(--white);
+  outline: none !important;
+}
+.card-boxes .card-body::-webkit-scrollbar {
+  width: 1px;
+}
+/* ....................................Browsecategories-div style  end*/
+ 
 .mega-content a {
   color: var(--main-color) !important;
 }
