@@ -2296,14 +2296,16 @@ span.value.upper::before {
   background-color: transparent;
   border: 1px solid var(--btn-color);
 }
-.iconside-box{
+
+.iconside-box {
   border: 1px solid #909080;
-  width: 30px; 
+  width: 30px;
   height: 30px;
   border-radius: 20px;
   text-align: center;
   line-height: 1.8;
 }
+
 /* ==============================================Exams Broser project page style start here 
 ===================================================*/
 
@@ -2359,8 +2361,92 @@ span.value.upper::before {
 }
 
 
+/* =================================================== secoend-div start 
+                     =-=====--===========-=*/
+
+.secoend-div {
+  height: 100vh;
+  background-color: rgb(224, 224, 224);
+  position: relative;
+}
+
+.secoend-div .container,
+.secoend-div .container-fluid {
+  position: relative;
+  z-index: 999;
+  color: rgb(36, 36, 36);
+}
+
+.marker {
+  background-color: #007bff !important;
+  padding: 0px 7px;
+  border-radius: 5px;
+  color: white;
+}
+
+/* =================================================== secoend-div end 
+                     =-=====--===========-=*/
+/* =================================================== third-div start 
+                     =-=====--===========-=*/
+
+.third-div {
+  position: relative;
+  background-image: url(../img/global-talent-bg-ld.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+.third-div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: inherit;
+  background-position: inherit;
+  background-repeat: inherit;
+  background-size: inherit;
+  filter: blur(5px);
+  /* Adjust the value as needed */
+}
+
+.third-div .container {
+  color: var(--white);
+  z-index: 999;
+  position: relative;
+  /* Ensure z-index works as expected */
+}
+
+/* =================================================== third-div end 
+                     =-=====--===========-=*/
 
 
+/* =================================================== fourth-div start 
+                                         =-=====--===========-=*/
+
+.fourth-div {
+  position: relative;
+  /* background-image: url(../img/global-talent-bg-ld.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(224, 224, 224);
+ 
+}
+
+ 
+.fourth-div .container {
+  color: var(--main-color);
+  z-index: 999;
+  position: relative;
+  /* Ensure z-index works as expected */
+}
+
+/* =================================================== fourth-div end 
+                                         =-=====--===========-=*/
 
 /* ==============================================Exams Broser project page style ends here 
 ===================================================*/
