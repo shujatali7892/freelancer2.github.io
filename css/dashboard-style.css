@@ -2270,7 +2270,9 @@ span.value.upper::before {
   .profile-list {
     width: 30% !important;
   }
-
+.verifiedfirst-div {
+  height: 100vh;
+}
   .first-div {
     height: 100vh;
   }
@@ -2319,17 +2321,7 @@ span.value.upper::before {
   border: 1px solid var(--btn-color);
 }
 
-/* .light-btn {
-  background: linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, .2) 100%);
-  border-color: #fff;
-  color: #f7f8f9;
-}
-
-.light-btn:hover {
-  color: linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, .2) 100%);
-  border-color: #fff;
-  background-color: #f7f8f9;
-} */
+ 
 .gray-btn {
   background: var(--main-color);
   border-color: var(--main-color);
@@ -2494,9 +2486,7 @@ span.value.upper::before {
   background-size: cover;
   background-color: rgb(224, 224, 224);
  
-}
-
- 
+} 
 .fourth-div .container {
   color: var(--main-color);
   z-index: 999;
@@ -2766,18 +2756,96 @@ span.value.upper::before {
      transform: rotateX(360deg);
      opacity: 1;
    }
- }
-
-
-
-
-
-
-
-
+ } 
 
 /* =================================================== fourth-div end 
                                          =-=====--===========-=*/
 
 /* ==============================================Exams Broser project page style ends here 
+===================================================*/
+
+
+
+/* ============================================== verified freelancer page style starts here 
+===================================================*/
+.verifiedfirst-div section {
+  margin-top: 0px;
+}
+
+.verifiedfirst-div .overlay {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.285);
+  /* background-image: linear-gradient(45deg, rgba(0, 0, 0, .3) 50%, rgba(0, 0, 0, .7) 50%); */
+  background-size: 3px 3px;
+  z-index: 2;
+}
+
+.verifiedfirst-div {
+  /* background-image: url(../img/ai-business-bg-ld.jpg); */
+  background-image: url(../img/verified-hero-desktop.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: cover;
+  animation: waveAnimation 12s infinite linear;
+  position: relative;
+}
+
+@keyframes waveAnimation {
+  0% {
+    background-position: center 0;
+    /* Initial position */
+  }
+
+  50% {
+    background-position: center -5px;
+    /* Peak of the wave */
+  }
+
+  100% {
+    background-position: center 0;
+    /* Return to initial position */
+  }
+}
+
+.verifiedfirst-div .container,
+.verifiedfirst-div .container-fluid {
+  position: relative;
+  z-index: 999;
+  color: white;
+}
+
+/* =================================================== .verified-secoend-div start 
+                     =-=====--===========-=*/
+
+.verified-secoend-div {
+  height: 100vh;
+  background-color: rgb(224, 224, 224);
+  position: relative;
+}
+
+.verified-secoend-div .container,
+.verified-secoend-div .container-fluid {
+  position: relative;
+  z-index: 999;
+  color: rgb(36, 36, 36);
+}
+.verified-secoend-div .card {
+  height: 50vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+ .verified-secoend-div .card-body .statments {
+   height: 20vh;
+   overflow-x: hidden;
+   overflow-y: auto;
+ }
+
+/* =================================================== .verified-secoend-div end 
+                     =-=====--===========-=*/
+/* ============================================== verified freelancer page style ends here 
 ===================================================*/
