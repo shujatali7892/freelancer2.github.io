@@ -2284,9 +2284,76 @@ span.value.upper::before {
   .first-div {
     height: 100vh;
   }
+
+  .verified-secoend-div .card {
+    height: 50vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .verified-secoend-div .card-body .statments {
+    height: 20vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .verified-third-div {
+    position: relative;
+    height: 80vh;
+  }
+
+  video {
+    width: 100% !important;
+  }
+
+  .border-gradient {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+  }
+
+  .border-gradient-green {
+    border-image-source: linear-gradient(to top, #e0e0e0, var(--btn-color), #e0e0e0);
+  }
+
+  .only-top {
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
+
+  .divicons-two,
+  .divicons {
+    text-align: center;
+  }
+
+  .divicons ul {
+    text-align: left;
+  }
+
+  video {
+    height: 500px !important;
+    width: 100% !important;
+  }
+
+  .border-gradient {
+    border: 2px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+  }
+
+  .border-gradient-green {
+    border-image-source: linear-gradient(to left, #e0e0e0, var(--btn-color), #e0e0e0);
+  }
+
+  .only-top {
+    border-left: 0;
+    border-right: 0;
+  }
+
   .profile-list {
     list-style: none;
     padding: 0;
@@ -2314,6 +2381,27 @@ span.value.upper::before {
     z-index: 3000;
     bottom: 0;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  video {
+    height: 400px !important;
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  video {
+    height: 350px !important;
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  video {
+    height: 300px !important;
+    width: 100% !important;
   }
 }
 
@@ -2774,8 +2862,6 @@ span.value.upper::before {
 /* ==============================================Exams Broser project page style ends here 
 ===================================================*/
 
-
-
 /* ============================================== verified freelancer page style starts here 
 ===================================================*/
 .verifiedfirst-div section {
@@ -2844,18 +2930,6 @@ span.value.upper::before {
   color: rgb(36, 36, 36);
 }
 
-.verified-secoend-div .card {
-  height: 50vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
-.verified-secoend-div .card-body .statments {
-  height: 20vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
 blockquote {
   font-weight: 400;
   font-size: 1.3rem;
@@ -2910,7 +2984,7 @@ cite {
 
 .verified-third-div {
   position: relative;
-  height: 80vh;
+
   background-image: linear-gradient(75.41deg, rgb(1, 1, 1) 11.81%, rgb(79, 28, 150) 87.29%);
 }
 
@@ -2939,8 +3013,6 @@ cite {
 /* =================================================== verified-third-div end 
                      =-=====--===========-=*/
 
-
-
 /* =================================================== .verified-fourth-div start 
                                                              =-=====--===========-=*/
 
@@ -2960,13 +3032,70 @@ cite {
   position: relative;
   /* Ensure z-index works as expected */
 }
- 
- 
 
- 
- 
+.verified-fourth-div h1,
+.verified-fourth-div h2 {
+  color: var(--btn-color);
+}
+
+#verified-fourth .modal-header h5 {
+  color: var(--btn-color);
+  font-weight: 700;
+}
+
+.errorbox {
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border-top: 1px solid var(--btn-color);
+  border-bottom: 1px solid var(--btn-color);
+  border-left: 9px solid var(--btn-color);
+  border-right: 9px solid var(--btn-color);
+}
+
+#verified-fourth .fa-1x {
+  color: var(--btn-color) !important;
+}
+
 /* =================================================== fourth-div end 
                                                              =-=====--===========-=*/
 
 /* ============================================== verified freelancer page style ends here 
+===================================================*/
+
+/* ============================================== Verification  page style start here 
+===================================================*/
+.verification-div .left-bar {
+  box-shadow: var(--shadow);
+  height: 80vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 10px 5px;
+  color: var(--main-color);
+}
+
+.verification-div .left-bar .nav-link {
+  color: var(--main-color);
+}
+
+.verification-div .left-bar .nav-pills .nav-link.active,
+.verification-div .left-bar .nav-pills .show>.nav-link {
+  /* color: var(--bs-nav-pills-link-active-color); */
+  background-color: transparent;
+  color: var(--btn-color) !important;
+  font-weight: 700;
+  border-left: 3px solid var(--btn-color);
+  border-right: 3px solid var(--btn-color);
+  border-radius: 7px;
+  /* box-shadow: var(--shadow); */
+}
+
+.verification-div .tab-content {
+  width: 100%;
+  min-height: 80vh;
+  box-shadow: var(--shadow) inset;
+  margin-left: 5px;
+}
+
+/* ============================================== Verification  page style ends here 
 ===================================================*/
