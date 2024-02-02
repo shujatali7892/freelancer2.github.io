@@ -2943,9 +2943,12 @@ cite {
   color: var(--main-color);
 } 
 .verification-div .tab-content { 
-  box-shadow: var(--shadow) inset; 
+  box-shadow: var(--shadow); 
 }
-
+.verification-div .tab-content .card-header{
+  color: var(--btn-color);
+  font-weight: 800;
+}
 
 .verification-div .left-bar .nav-pills .nav-link.active,
 .verification-div .left-bar .nav-pills .show>.nav-link {
@@ -2955,6 +2958,43 @@ cite {
   font-weight: 700; 
   box-shadow: var(--shadow);
 }
+.title-body{
+  background-color: gainsboro;
+  padding: 2px;
+  font-weight: bold;
+}
+ .verification-div .usersearch-div .form-control {
+   height: 37px;
+ }
+
+ .verification-div .usersearch-div button {
+   display: block;
+   background-color: inherit;
+   color: white !important;
+   padding: 3px 16px !important;
+   width: 100%;
+   margin: 0px 0px 0px -1px !important;
+   border: none;
+   outline: none;
+   text-align: left;
+   background-color: var(--btn-color) !important;
+   cursor: pointer;
+   transition: all 0.3s ease 0s;
+   font-size: 14px !important;
+   height: 37px !important;
+ }
+
+ .verification-div .usersearch-div .star-rating {
+   line-height: 32px;
+   font-size: 1.25em;
+ }
+
+ .verification-div .usersearch-div i .fa-solid {
+   color: yellow !important;
+ }
+   #SecurityNumber .modal-title{
+      color: var(--btn-color) !important;
+    }
 /* ============================================== Verification  page style ends here 
 ===================================================*/
 
