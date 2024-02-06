@@ -2938,15 +2938,18 @@ cite {
   color: var(--main-color);
   cursor: pointer;
 }
+
 .verification-div .left-bar {
-   
+
   padding: 10px 5px;
   color: var(--main-color);
-} 
-.verification-div .tab-content { 
-  box-shadow: var(--shadow); 
 }
-.verification-div .tab-content .card-header{
+
+.verification-div .tab-content {
+  box-shadow: var(--shadow);
+}
+
+.verification-div .tab-content .card-header {
   color: var(--btn-color);
   font-weight: 800;
 }
@@ -2956,227 +2959,266 @@ cite {
   /* color: var(--bs-nav-pills-link-active-color); */
   background-color: transparent;
   color: var(--btn-color) !important;
-  font-weight: 700; 
+  font-weight: 700;
   box-shadow: var(--shadow);
 }
-.title-body{
+
+.title-body {
   background-color: gainsboro;
   padding: 2px;
   font-weight: bold;
 }
- .verification-div .usersearch-div .form-control {
-   height: 37px;
- }
 
- .verification-div .usersearch-div button {
-   display: block;
-   background-color: inherit;
-   color: white !important;
-   padding: 3px 16px !important;
-   width: 100%;
-   margin: 0px 0px 0px -1px !important;
-   border: none;
-   outline: none;
-   text-align: left;
-   background-color: var(--btn-color) !important;
-   cursor: pointer;
-   transition: all 0.3s ease 0s;
-   font-size: 14px !important;
-   height: 37px !important;
- }
+.verification-div .usersearch-div .form-control {
+  height: 37px;
+}
 
- .verification-div .usersearch-div .star-rating {
-   line-height: 32px;
-   font-size: 1.25em;
- }
+.verification-div .usersearch-div button {
+  display: block;
+  background-color: inherit;
+  color: white !important;
+  padding: 3px 16px !important;
+  width: 100%;
+  margin: 0px 0px 0px -1px !important;
+  border: none;
+  outline: none;
+  text-align: left;
+  background-color: var(--btn-color) !important;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-size: 14px !important;
+  height: 37px !important;
+}
 
- .verification-div .usersearch-div i .fa-solid {
-   color: yellow !important;
- }
-   #SecurityNumber .modal-title{
-      color: var(--btn-color) !important;
-    }
-    .info-div{
-      padding: 5px;
-      border-left: 5px solid var(--btn-color);
-      border-right: 1px solid var(--btn-color);
-      border-top: 1px solid var(--btn-color);
-      border-bottom: 1px solid var(--btn-color);
-      border-radius: 10px;
-      text-align: center;
-    }
-    .btn-pluse .fa-1x{
-      color: var(--white) !important;
-    }
-    .title-body .fa-1x{
-      color: var(--btn-color) !important;
-    }
+.verification-div .usersearch-div .star-rating {
+  line-height: 32px;
+  font-size: 1.25em;
+}
+
+.verification-div .usersearch-div i .fa-solid {
+  color: yellow !important;
+}
+
+#SecurityNumber .modal-title {
+  color: var(--btn-color) !important;
+}
+
+.info-div {
+  padding: 5px;
+  border-left: 5px solid var(--btn-color);
+  border-right: 1px solid var(--btn-color);
+  border-top: 1px solid var(--btn-color);
+  border-bottom: 1px solid var(--btn-color);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn-pluse .fa-1x {
+  color: var(--white) !important;
+}
+
+.title-body .fa-1x {
+  color: var(--btn-color) !important;
+}
 
 
-
-
-/*form styles*/
-#msform {
+.MultiStepfrm #msform {
   text-align: center;
   position: relative;
-  margin-top: 30px;
+  margin-top: 20px
 }
 
-#msform fieldset {
+.MultiStepfrm #msform fieldset {
   background: white;
   border: 0 none;
-  border-radius: 8px;
-  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
-  padding: 20px 30px;
+  border-radius: 0.5rem;
   box-sizing: border-box;
-  width: 80%;
-  margin: 0 10%;
-
-  /*stacking fieldsets above each other*/
-  position: relative;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 20px;
+  position: relative
 }
 
-/*Hide all except first fieldset*/
-#msform fieldset:not(:first-of-type) {
-  display: none;
+.MultiStepfrm .form-card {
+  text-align: left
 }
 
-/*inputs*/
-#msform input,
-#msform textarea {
-  padding: 15px;
+.MultiStepfrm #msform fieldset:not(:first-of-type) {
+  display: none
+}
+
+.MultiStepfrm #msform input,
+.MultiStepfrm #msform textarea {
+  padding: 8px 15px 8px 15px;
   border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-bottom: 10px;
+  border-radius: 0px;
+  margin-bottom: 25px;
+  margin-top: 2px;
   width: 100%;
   box-sizing: border-box;
   font-family: montserrat;
   color: #2C3E50;
-  font-size: 13px;
+  background-color: #ECEFF1;
+  font-size: 16px;
+  letter-spacing: 1px
 }
 
-#msform input:focus,
-#msform textarea:focus {
+.MultiStepfrm #msform input:focus,
+.MultiStepfrm #msform textarea:focus {
   -moz-box-shadow: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  border: 1px solid #2098ce;
-  outline-width: 0;
-  transition: All 0.5s ease-in;
-  -webkit-transition: All 0.5s ease-in;
-  -moz-transition: All 0.5s ease-in;
-  -o-transition: All 0.5s ease-in;
+  border: 1px solid #673AB7;
+  outline-width: 0
 }
 
-/*buttons*/
-#msform .action-button {
+ .MultiStepfrm #msform .action-button {
   width: 100px;
-  background: #2098ce;
+  background: #673AB7;
   font-weight: bold;
   color: white;
   border: 0 none;
-  border-radius: 25px;
+  border-radius: 0px;
   cursor: pointer;
   padding: 10px 5px;
-  margin: 10px 5px;
+  margin: 10px 0px 10px 5px;
+  float: right
 }
 
-#msform .action-button:hover,
-#msform .action-button:focus {
-  box-shadow: 0 0 0 2px white, 0 0 0 3px #2098ce;
+ .MultiStepfrm #msform .action-button:hover,
+ .MultiStepfrm #msform .action-button:focus {
+  background-color: #311B92
 }
 
-#msform .action-button-previous {
+ .MultiStepfrm #msform .action-button-previous {
   width: 100px;
-  background: #aCbEd0;
+  background: #616161;
   font-weight: bold;
   color: white;
   border: 0 none;
-  border-radius: 25px;
+  border-radius: 0px;
   cursor: pointer;
   padding: 10px 5px;
-  margin: 10px 5px;
+  margin: 10px 5px 10px 0px;
+  float: right
 }
 
-#msform .action-button-previous:hover,
-#msform .action-button-previous:focus {
-  box-shadow: 0 0 0 2px white, 0 0 0 3px #aCbEd0;
+ .MultiStepfrm #msform .action-button-previous:hover,
+ .MultiStepfrm #msform .action-button-previous:focus {
+  background-color: #000000
 }
 
-/*headings*/
-.fs-title {
-  font-size: 18px;
-  text-transform: uppercase;
-  color: #2C3E50;
-  margin-bottom: 10px;
-  letter-spacing: 2px;
-  font-weight: bold;
+ 
+
+ .MultiStepfrm .fs-title { 
+  color: var(--btn-color);  
 }
 
-.fs-subtitle {
-  font-weight: normal;
-  font-size: 13px;
-  color: #666;
-  margin-bottom: 20px;
+ .MultiStepfrm .purple-text {
+  color: #673AB7;
+  font-weight: normal
 }
 
-/*progressbar*/
-#progressbar {
+ .MultiStepfrm .steps { 
+  color: gray;  
+}
+
+ .MultiStepfrm .fieldlabels {
+  color: gray;
+  text-align: left
+}
+
+ .MultiStepfrm #progressbar {
   margin-bottom: 30px;
   overflow: hidden;
-  /*CSS counters to number the steps*/
-  counter-reset: step;
+  color: lightgrey
 }
 
-#progressbar li {
+ .MultiStepfrm #progressbar .active {
+  color: var(--btn-color);
+}
+
+ .MultiStepfrm #progressbar li {
   list-style-type: none;
-  color: #666;
-  text-transform: uppercase;
-  font-size: 9px;
-  width: 33.33%;
+  font-size: 15px;
+  width: 25%;
   float: left;
   position: relative;
-  letter-spacing: 1px;
+  font-weight: 400
 }
 
-#progressbar li:before {
-  content: counter(step);
-  counter-increment: step;
-  width: 24px;
-  height: 24px;
-  line-height: 26px;
+ .MultiStepfrm #progressbar #account:before {
+  font-family: FontAwesome;
+  /* content: "\f13e" */
+  content: "\f00c"
+}
+
+ .MultiStepfrm #progressbar #personal:before {
+  font-family: FontAwesome;
+  /* content: "\f007" */
+  content: "2"
+}
+
+ .MultiStepfrm #progressbar #payment:before {
+  font-family: FontAwesome;
+  /* content: "\f030" */
+  content: "3"
+}
+
+ .MultiStepfrm #progressbar #confirm:before {
+  font-family: FontAwesome;
+  /* content: "\f00c" */
+content: "4"
+}
+
+ .MultiStepfrm #progressbar li:before {
+  width: 50px;
+  height: 50px;
+  line-height: 45px;
   display: block;
-  font-size: 12px;
-  color: #333;
-  background: white;
-  border-radius: 25px;
+  font-size: 20px;
+  color: #ffffff;
+  background: lightgray;
+  border-radius: 50%;
   margin: 0 auto 10px auto;
+  padding: 2px
 }
 
-/*progressbar connectors*/
-#progressbar li:after {
+ .MultiStepfrm #progressbar li:after {
   content: '';
   width: 100%;
   height: 2px;
-  background: white;
+  background: lightgray;
   position: absolute;
-  left: -50%;
-  top: 9px;
-  z-index: -1;
-  /*put it behind the numbers*/
+  left: 0;
+  top: 25px;
+  z-index: -1
 }
 
-#progressbar li:first-child:after {
-  /*connector not needed before the first step*/
-  content: none;
+ .MultiStepfrm #progressbar li.active:before,
+ .MultiStepfrm #progressbar li.active:after {
+  background: #673AB7
 }
 
-/*marking active/completed steps blue*/
-/*The number of the step and the connector before it = blue*/
-#progressbar li.active:before,
-#progressbar li.active:after {
-  background: #2098ce;
+ .MultiStepfrm .progress {
+  height: 20px
+}
+
+ .MultiStepfrm .progress-bar {
+  background-color: #673AB7
+}
+
+ .MultiStepfrm .fit-image {
+  width: 100%;
+  object-fit: cover
+}
+
+.highlight-btn{
+  background-color: var(--btn-color);
+  padding: 2px 10px;
+  border-radius: 20px;
   color: white;
+  text-align: center;
 }
 
 
@@ -3187,7 +3229,8 @@ cite {
 
 
 
-    
+
+
 /* ============================================== Verification  page style ends here 
 ===================================================*/
 
@@ -3196,14 +3239,15 @@ cite {
 
 /* ++++++++++++++++++++++++++++++ media query  */
 @media screen and (min-width: 992px) {
-  .divtab{
+  .divtab {
     display: flex;
   }
-  .verification-div .left-bar { 
+
+  .verification-div .left-bar {
     height: 80vh;
     width: 20%;
     overflow-x: hidden;
-    overflow-y: auto; 
+    overflow-y: auto;
   }
 
   .verification-div .tab-content {
@@ -3211,12 +3255,13 @@ cite {
     /* min-height: 80vh;  */
     margin-left: 10px;
   }
-.verification-div .left-bar .nav-pills .nav-link.active,
-.verification-div .left-bar .nav-pills .show>.nav-link { 
-  border-left: 3px solid var(--btn-color);
-  border-right: 3px solid var(--btn-color);
-  border-radius: 7px; 
-}
+
+  .verification-div .left-bar .nav-pills .nav-link.active,
+  .verification-div .left-bar .nav-pills .show>.nav-link {
+    border-left: 3px solid var(--btn-color);
+    border-right: 3px solid var(--btn-color);
+    border-radius: 7px;
+  }
 
 
 
@@ -3271,17 +3316,18 @@ cite {
 }
 
 @media screen and (max-width: 768px) {
- .flex-column{
-flex-direction:row !important
- }
+  .flex-column {
+    flex-direction: row !important
+  }
 
- .verification-div .left-bar .nav-pills .nav-link.active,
- .verification-div .left-bar .nav-pills .show>.nav-link {
-   border-top: 3px solid var(--btn-color);
-   border-bottom: 3px solid var(--btn-color);
-   border-radius: 7px;
-   padding: 2px;
- }
+  .verification-div .left-bar .nav-pills .nav-link.active,
+  .verification-div .left-bar .nav-pills .show>.nav-link {
+    border-top: 3px solid var(--btn-color);
+    border-bottom: 3px solid var(--btn-color);
+    border-radius: 7px;
+    padding: 2px;
+  }
+
   .divicons-two,
   .divicons {
     text-align: center;
