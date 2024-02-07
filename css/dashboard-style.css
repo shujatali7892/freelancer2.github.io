@@ -3248,20 +3248,72 @@ cite {
   border-top: 1px solid rgba(128, 128, 128, 0.351);
   padding: 15px 5px;
 }
-
-
-
-
-
-
-
-
-
+.delete-div, .deactivate-div{ 
+ border-radius: 5px;
+border: 1px solid #c9c9c9;
+padding: 10px;
+} 
 /* ============================================== Verification  page style ends here 
 ===================================================*/
+ 
+
+/* ============================================== preferred freelancer page style starts here 
+===================================================*/
+.preferredfreelancer-div section {
+  margin-top: 0px;
+}
+
+.preferredfreelancer-div .overlay {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.285);
+  /* background-image: linear-gradient(45deg, rgba(0, 0, 0, .3) 50%, rgba(0, 0, 0, .7) 50%); */
+  background-size: 3px 3px;
+  z-index: 2;
+}
+
+.preferredfreelancer-div {
+  /* background-image: url(../img/ai-business-bg-ld.jpg); */
+  background-image: url(../img/preferred-freelancer-program/pfp-hero-desktop.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: cover;
+  animation: waveAnimation 12s infinite linear;
+  position: relative;
+}
+
+@keyframes waveAnimation {
+  0% {
+    background-position: center 0;
+    /* Initial position */
+  }
+
+  50% {
+    background-position: center -5px;
+    /* Peak of the wave */
+  }
+
+  100% {
+    background-position: center 0;
+    /* Return to initial position */
+  }
+}
+
+.preferredfreelancer-div .container,
+.preferredfreelancer-div .container-fluid {
+  position: relative;
+  z-index: 999;
+  color: white;
+}
 
 
+/*  */
 
+ 
 
 /* ++++++++++++++++++++++++++++++ media query  */
 @media screen and (min-width: 992px) {
@@ -3294,7 +3346,9 @@ cite {
   .profile-list {
     width: 30% !important;
   }
-
+.preferredfreelancer-div{
+    height: 100vh;
+  }
   .verifiedfirst-div {
     height: 100vh;
   }
