@@ -32,6 +32,8 @@
     <link href="./css/dashboard-style.css" rel="stylesheet">
     <link href="./css/onts.googleapis.css" rel="stylesheet">
     <link href="./css/font-awesome-all.min.css" rel="stylesheet">
+    <link href="./css/font-awesome-all.min.css" rel="stylesheet">
+    <link href="./datatable/dataTables.bootstrap5.min.css" rel="stylesheet">
 
 </head>
 
@@ -496,6 +498,42 @@
                    
                   </div>
                 </div>
+                <div class="row">
+                    <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table display table-borderd table-striped">
+                                    <thead class="table-dark">
+                                        <tr>
+                                            <th>Project ID</th>
+                                            <th>Project Name</th>
+                                            <th>Total Bid</th>
+                                            <th>Average Bid</th>
+                                            <th>My Bid</th>
+                                            <th>Bid Placed</th>
+                                            <th>Project Desc</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -634,13 +672,19 @@
     <script src="./vendor/swiper/swiper-bundle.min.js"></script>
     <script src="./vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="./vendor/php-email-form/validate.js"></script>
-
+<script src="../datatable/dataTables.bootstrap5.min.js"></script>
+<script src="../datatable/jquery.dataTables.min.js"></script>
 
     <!-- Template Main JS File -->
     <script src="./js/main.js"></script>
     <script src="./js/script.js"></script>
     <script src="./js/menu.js"></script>
-  
+<script>
+    $(document).ready(function () {
+        $('table.display').dataTable();
+
+    });
+</script>
 </body>
 
 </html>
